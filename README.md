@@ -1,10 +1,16 @@
 # Reasonix Mobile (Android)
 
-Reasonix 的 Android 客户端。把 Reasonix 装在手机上，界面在本机运行，模型与
-密钥也留在本机；需要算力或要动文件时，通过内置的远程连接把它指向你自己的
-服务器，命令在服务器上执行。
+把电脑版 [Reasonix](https://github.com/esengine/DeepSeek-Reasonix) 装进手机。
+
+> **上游项目：[`esengine/DeepSeek-Reasonix`](https://github.com/esengine/DeepSeek-Reasonix)**
+> Reasonix 本体（内核与界面）由上游作者开发维护，版权归 `Copyright (c) 2026 Reasonix Contributors`，
+> 以 MIT 许可发布 —— 本仓库的 [LICENSE](LICENSE) 即上游原文，未作改动。
+> 本仓库只做安卓侧的封装（把内核与页面打进 APK、补上移动端布局与安卓特有的接线），
+> 不含对上游代码的重新授权，也不代表上游。
 
 ## 这是什么
+
+需要算力或要动文件时，通过内置的远程连接把它指向你自己的服务器，命令在服务器上执行。
 
 - **本机运行**：应用内自带内核与界面，离线也能启动，不需要额外装一个后台服务。
 - **自带远程连接**：内置 SSH，可添加并管理多台服务器，在其上打开工作区、跑任务，
@@ -38,6 +44,8 @@ Reasonix 的 Android 客户端。把 Reasonix 装在手机上，界面在本机�
 
 涉及密钥、服务器地址等敏感信息时，请先自行打码。
 
-## 许可
+## 许可与致谢
 
-本客户端遵循其所基于的上游项目许可。见 [LICENSE](LICENSE)。
+- Reasonix 本体：MIT，`Copyright (c) 2026 Reasonix Contributors`，见 [LICENSE](LICENSE)（上游原文）。
+- 原项目仓库与文档：[`esengine/DeepSeek-Reasonix`](https://github.com/esengine/DeepSeek-Reasonix)
+- 本仓库的安卓封装同样以 MIT 发布；上游的版权声明与许可全文随本仓库一并保留。
