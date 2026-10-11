@@ -29,7 +29,7 @@ Reasonix 的 Android 客户端。把 Reasonix 装在手机上，界面在本机�
 
 ## 反馈问题
 
-请在本仓库的 [Issues](../../issues) 中提交。为了让问题能被复现，请尽量附上：
+请在本仓库的 [Issues](https://github.com/imcreazy/DeepSeek-Reasonix-Mobile-APK/issues) 中提交。为了让问题能被复现，请尽量附上：
 
 - 手机型号与系统版本
 - 应用版本号（设置 → 版本）
